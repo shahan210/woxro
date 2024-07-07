@@ -2,6 +2,7 @@ import React from "react";
 import { TfiClose } from "react-icons/tfi";
 import Section1 from "./components/Section1";
 import Section2 from "./components/Section2";
+import Section3 from "./components/Section3";
 
 const Index = () => {
   return (
@@ -14,7 +15,7 @@ const Index = () => {
           <div className="flex-col flex justify-center ">
             <Section1 />
             <Section2 />
-            
+            <Section3 />
           </div>
         </div>
       </div>
