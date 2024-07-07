@@ -2,8 +2,8 @@ import React from "react";
 
 const Section4 = () => {
   return (
-    <div className="flex justify-center  items-center text-center  my-32">
-      <div className="container max-w-[80%]  sm:max-w-[50%] text-center flex gap-10 flex-col">
+    <div className="sec4Div">
+      <div className="sec4Container">
         <h1 className=" text-3xl sm:text-3xl">Interested in delving deeper into the project?</h1>
         <div className="flex justify-center">
           <p className="max-w-[80%] text-sm sm:text-base">
@@ -13,13 +13,9 @@ const Section4 = () => {
             <b> +91 480 20802730. </b>
           </p>
         </div>
-        <div className="flex gap-10 sm:flex-row flex-col justify-center items-center">
-          <button className="py-1 hover:scale-105 transition-all ease-in-out duration-300 border border-white w-[220px]">
-            Ring us on Skype
-          </button>
-          <button className="py-1 border hover:scale-105 transition-all ease-in-out duration-300 bg-white border-white text-black w-[220px]">
-            Contact Us
-          </button>
+        <div className="sec4ButtonDiv">
+          <button className="buttonBlack w-[220px]">Ring us on Skype</button>
+          <button className="buttonWhite w-[220px]">Contact Us</button>
         </div>
       </div>
     </div>
