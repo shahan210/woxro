@@ -1,14 +1,20 @@
 import Banner from "../../../assets/fortBanner.png";
 import React from "react";
-
+import { motion } from "framer-motion";
 const Section1 = () => {
   return (
     <div>
       <p className="text-center p-2 uppercase text-4xl my-4">
         Epic Games : An American video game and software developer and publisher based in Cary, North Carolina.
       </p>
-      <div>
-        <img src={Banner} alt="Banner" className="w-fit p-2 my-4 cursor-pointer" />
+      <div className="overflow-hidden">
+        <motion.img
+          whileHover={{ scale: 1.01 }}
+          transition={{ duration: 0.5 }}
+          src={Banner}
+          alt="Banner"
+          className="w-fit p-2 my-4 cursor-pointer"
+        />
       </div>
       <div className="flex justify-center">
         <div className="max-w-[90%] my-4 ">
@@ -21,7 +27,9 @@ const Section1 = () => {
         </div>
       </div>
       <div className="flex justify-center my-4">
-        <button className="bg-white text-black w-[250px]  py-1">Visit Website</button>
+        <button className="bg-white hover:scale-105 transition-all ease-in-out duration-300 text-black w-[250px]  py-1">
+          Visit Website
+        </button>
       </div>
     </div>
   );

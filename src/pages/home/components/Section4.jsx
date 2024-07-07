@@ -14,8 +14,12 @@ const Section4 = () => {
           </p>
         </div>
         <div className="flex gap-10 justify-center">
-          <button className="py-1 border border-white w-[220px]">Ring us on Skype</button>
-          <button className="py-1 border bg-white border-white text-black w-[220px]">Contact Us</button>
+          <button className="py-1 hover:scale-105 transition-all ease-in-out duration-300 border border-white w-[220px]">
+            Ring us on Skype
+          </button>
+          <button className="py-1 border hover:scale-105 transition-all ease-in-out duration-300 bg-white border-white text-black w-[220px]">
+            Contact Us
+          </button>
         </div>
       </div>
     </div>
