@@ -18,7 +18,7 @@ const Index = () => {
             <Section2 />
             <Section3 />
             <Section4 />
-            <div className="absolute p-4 bottom-0 right-[34%]">
+            <div className="absolute  p-4 bottom-0 right-[34%] sm:text-base text-xs">
               © 2019-2023 abcTechnology Solutions Pvt. Ltd. All Rights Reserved
             </div>
           </div>

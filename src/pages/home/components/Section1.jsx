@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const Section1 = () => {
   return (
     <div>
-      <p className="text-center p-2 uppercase text-4xl my-4">
+      <p className="text-center p-2 uppercase text-lg md:text-4xl my-4">
         Epic Games : An American video game and software developer and publisher based in Cary, North Carolina.
       </p>
       <div className="overflow-hidden">
@@ -18,7 +18,7 @@ const Section1 = () => {
       </div>
       <div className="flex justify-center">
         <div className="max-w-[90%] my-4 ">
-          <p className="text-center p-2 uppercase text-md ">
+          <p className="text-center p-2 uppercase text-sm md:text-md ">
             Create, play, and battle with friends for free in Fortnite. Be the last player standing in Battle Royale and
             Zero Build, experience a concert or live event, or discover over a million creator made games, including
             racing, parkour, zombie survival, and more. Each Fortnite island has an individual age rating so you can

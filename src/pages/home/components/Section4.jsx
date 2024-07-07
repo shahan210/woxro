@@ -2,18 +2,18 @@ import React from "react";
 
 const Section4 = () => {
   return (
-    <div className="flex justify-center  items-center text-center  my-40">
-      <div className="container max-w-[50%] text-center flex gap-10 flex-col">
-        <h1 className="text-3xl">Interested in delving deeper into the project?</h1>
+    <div className="flex justify-center  items-center text-center  my-32">
+      <div className="container max-w-[80%]  sm:max-w-[50%] text-center flex gap-10 flex-col">
+        <h1 className=" text-3xl sm:text-3xl">Interested in delving deeper into the project?</h1>
         <div className="flex justify-center">
-          <p className="max-w-[80%]">
+          <p className="max-w-[80%] text-sm sm:text-base">
             If you'd like to explore further details about our initiatives or any of our affiliated brands, don't
             hesitate to connect. You can reach out to us via email at
             <b> hello@abc.com </b>or give us a call at
             <b> +91 480 20802730. </b>
           </p>
         </div>
-        <div className="flex gap-10 justify-center">
+        <div className="flex gap-10 sm:flex-row flex-col justify-center items-center">
           <button className="py-1 hover:scale-105 transition-all ease-in-out duration-300 border border-white w-[220px]">
             Ring us on Skype
           </button>
