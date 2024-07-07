@@ -7,7 +7,9 @@ const Section1 = () => {
       <p className="text-center p-2 uppercase text-4xl my-4">
         Epic Games : An American video game and software developer and publisher based in Cary, North Carolina.
       </p>
-      <img src={Banner} alt="Banner" className="w-fit p-2 my-4" />
+      <div>
+        <img src={Banner} alt="Banner" className="w-fit p-2 my-4 cursor-pointer" />
+      </div>
       <div className="flex justify-center">
         <div className="max-w-[90%] my-4 ">
           <p className="text-center p-2 uppercase text-md ">
